@@ -19,9 +19,15 @@
 .navbar_right > i + i {
     margin-left: 8px;
 }
+.navbar_right > i {
+    cursor: pointer;
+}
+.navbar_right > i:hover{
+    color: red;
+}
 .videoplayer{
+    width: 100%;
     height: 250px;
-    border: 1px solid red;
 }
 
 .tag{
@@ -35,6 +41,9 @@
     justify-content: space-between;
     margin: 0 13px;
 }
+.title > i {
+    cursor: pointer;
+}
 .upload_date{
     margin-left: 13px;
     font-size: 12px;
@@ -45,4 +54,49 @@
     display: flex;
     justify-content: space-between;
     margin: 10px 20px 0 20px;
+    text-align: center;
+    color: #606060;
+}
+.icon_box > i + p {
+    margin-top: 8px;
+} 
+
+.icon_box > i{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.icon_box > p {
+    color: black;
+}
+
+.avatar_container{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #989494;
+    border-bottom: 1px solid #606060;
+    margin: 20px 15px;
+    padding: 8px;
+}
+
+.introduce > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.introduce{
+    display: flex;
+}
+.text{
+    margin-left: 10px;
+}
+.subscribe{
+    font-size: 14px;
+    line-height: 47px;
+    cursor: pointer;
+}
+.subscribe:hover{
+    color: red;
+    font-weight: bold;
 }
