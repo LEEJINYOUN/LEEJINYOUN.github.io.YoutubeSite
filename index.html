@@ -1,67 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/e3d83117d8.js" crossorigin="anonymous"></script>
-    <title>유튜브 사이트</title>
-</head>
-<body>
-    <header class="navbar">
-        <div class="navbar_logo">
-            <i class="fa fa-youtube-play"></i>
-            <span>Youtube</span>
-        </div>
-        <div class="navbar_right">
-            <i class="fa fa-search"></i>
-            <i class="fa fa-ellipsis-v"></i>
-        </div>
-    </header>
-    <section class="screen">
-        <video src="./videofile/Forest.mp4" class="videoplayer" controls></video>
-    </section>
-    <div class="InfoAndUpNext">
-        <section class="info">
-            <div class="content">
-
-                <div class="TitleAndMoreBtn">
-                    <p class="title clamp">Clone Coding: HTML, CSS, Javascript 를 이용하여
-                        유튜브 모바일 웹사이트 (Youtube Mobile Weqsite) 만들기
-                    </p>
-                    <button class="moreBtn"><i class="fa fa-caret-down"></i></button>
-                </div>
-                <div class="ViwesAndTag">
-                    <p class="views">조회수 1000회 &middot; 최초공개: 2022.05.30</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/e3d83117d8.js" crossorigin="anonymous"></script>
+        <title>유튜브 사이트</title>
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="navbar_logo">
+                <i class="fa fa-youtube-play"></i>
+                <span>Youtube</span>
+            </div>
+            <div class="navbar_right">
+                <i class="fa fa-search"></i>
+                <i class="fa fa-ellipsis-v"></i>
+            </div>
+        </header>
+        <section class="screen">
+            <video src="./videofile/Forest.mp4" class="videoplayer" controls="controls"></video>
+        </section>
+        <div class="InfoAndUpNext">
+            <section class="info">
+                <div class="content">
                     <ul class="tag">
                         <li>#클론코딩</li>
                         <li>#코딩 공부</li>
                         <li>#프론트엔드</li>
                     </ul>
-                </div>
+                    <div class="TitleAndMoreBtn">
 
-            </div>
+                        <p class="title clamp">Clone Coding: HTML, CSS, Javascript 를 이용하여 유튜브 모바일 웹사이트
+                            (Youtube Mobile Weqsite) 만들기
+                        </p>
+                        <button class="moreBtn">
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                    </div>
+                    <div class="ViwesAndTag">
+                        <p class="views">조회수 1000회 &middot; 최초공개: 2022.05.30</p>
+
+                    </div>
+                </div>
                 <ul class="icons">
                     <li class="icon_box">
-                        <button><i class="active fa fa-thumbs-up"></i></button>
+                        <button>
+                            <i class="active fa fa-thumbs-up"></i>
+                        </button>
                         <p>1.5천</p>
                     </li>
                     <li class="icon_box">
-                        <button><i class="fa fa-thumbs-down"></i></button>
+                        <button>
+                            <i class="fa fa-thumbs-down"></i>
+                        </button>
                         <p>0</p>
                     </li>
                     <li class="icon_box">
-                        <button><i class="fa fa-share"></i></button>
-                        <p>Share</p>
+                        <button>
+                            <i class="fa fa-share"></i>
+                        </button>
+                        <p>공유</p>
                     </li>
                     <li class="icon_box">
-                        <button><i class="fa fa-plus"></i></button>
-                        <p>Save</p>
+                        <button>
+                            <i class="fa fa-plus"></i>
+                        </button>
+                        <p>저장</p>
                     </li>
                     <li class="icon_box">
-                        <button><i class="fa fa-flag"></i></button>
-                        <p>Report</p>
+                        <button>
+                            <i class="fa fa-flag"></i>
+                        </button>
+                        <p>신고</p>
                     </li>
                 </ul>
                 <div class="avatar_container">
@@ -74,56 +86,61 @@
                     </div>
                     <button class="subscribe">구독</button>
                 </div>
-        </section>
-        <section class="comment_container">
-            <div class="comment">
-                <p>댓글 100</p>
-                <button class="moreBtn"><i class="fa fa-caret-down"></i></button>
-            </div>
-            <div class="comment_add">
-                <img src="./imgs/증명사진 정장.jpg" alt="">
-            <input type="text" placeholder="댓글 추가...">
+                <div class="comment_container">
+                    <div class="comment">
+                        <p>댓글 100</p>
+                        <button class="moreBtn">
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                    </div>
+                    <div class="comment_add">
+                        <img src="./imgs/증명사진 정장.jpg" alt="">
+                        <input type="text" placeholder="댓글 추가...">
+                    </div>
+                </div>
+            </section>
+            <section class="upnext">
+                <span class="title">다음 동영상</span>
+                <ul class="items">
+                    <li class="item">
+                        <div class="thumbnail"><img src="./imgs/dog1.jpg" alt=""></div>
+                        <div class="infos">
+                            <img src="./imgs/증명사진 정장.jpg" alt="">
+                            <div class="info">
+                                <span class="title">강아지</span>
+                                <span class="views">8.2만회</span>
+                            </div>
+                            <button class="moreBtn">
+                                <i class="fa fa-ellipsis-v"></i>
+                            </button>
+                        </div>
+
+                    </li>
+                    <li class="item">
+                        <div class="thumbnail"><img src="./imgs/dog2.jpg" alt=""></div>
+                        <div class="info">
+                            <span class="title">강아지</span>
+                            <span class="name">이진영</span>
+                            <span class="views">82K views</span>
+                        </div>
+                        <button class="moreBtn">
+                            <i class="fa fa-ellipsis-v"></i>
+                        </button>
+                    </li>
+                    <li class="item">
+                        <div class="thumbnail"><img src="./imgs/dog3.jpg" alt=""></div>
+                        <div class="info">
+                            <span class="title">강아지</span>
+                            <span class="name">이진영</span>
+                            <span class="views">82K views</span>
+                        </div>
+                        <button class="moreBtn">
+                            <i class="fa fa-ellipsis-v"></i>
+                        </button>
+                    </li>
+                </ul>
+            </section>
         </div>
-        </section>
-        <section class="upnext">
-            <span class="title">Up next</span>
-            <ul class="items">
-                <li class="item">
-                    <div class="thumbnail"><img src="./imgs/dog1.jpg" alt=""></div>
-                    <div class="info">
-                        <span class="title">강아지</span>
-                        <span class="name">이진영</span>
-                        <span class="views">82K views</span>
-                    </div>
-                    <button class="moreBtn">
-                        <i class="fa fa-ellipsis-v"></i>
-                    </button>
-                </li>
-                <li class="item">
-                    <div class="thumbnail"><img src="./imgs/dog2.jpg" alt=""></div>
-                    <div class="info">
-                        <span class="title">강아지</span>
-                        <span class="name">이진영</span>
-                        <span class="views">82K views</span>
-                    </div>
-                    <button class="moreBtn">
-                        <i class="fa fa-ellipsis-v"></i>
-                    </button>
-                </li>
-                <li class="item">
-                    <div class="thumbnail"><img src="./imgs/dog3.jpg" alt=""></div>
-                    <div class="info">
-                        <span class="title">강아지</span>
-                        <span class="name">이진영</span>
-                        <span class="views">82K views</span>
-                    </div>
-                    <button class="moreBtn">
-                        <i class="fa fa-ellipsis-v"></i>
-                    </button>
-                </li>
-            </ul>
-        </section>
-    </div>
-    <script src="main.js"></script>
-</body>
+        <script src="main.js"></script>
+    </body>
 </html>
