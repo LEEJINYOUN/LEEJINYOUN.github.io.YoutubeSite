@@ -9,62 +9,121 @@
     <title>유튜브 사이트</title>
 </head>
 <body>
-    <nav class="navbar">
+    <header class="navbar">
         <div class="navbar_logo">
             <i class="fa fa-youtube-play"></i>
-            Youtube
+            <span>Youtube</span>
         </div>
         <div class="navbar_right">
             <i class="fa fa-search"></i>
             <i class="fa fa-ellipsis-v"></i>
         </div>
-    </nav>
+    </header>
+    <section class="screen">
         <video src="./videofile/Forest.mp4" class="videoplayer" controls></video>
-    <div class="contents">
-        <div class="tag">
-            #CloneCoding #CodingStudy #Jinyoung
-        </div>
-        <div class="title">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est neque voluptatibus perspiciatis totam fuga fugit repudiandae libero dolores iure?</p>
-            <i class="fa fa-caret-down"></i>
-        </div>
-        <div class="upload_date">1M viwers 1 month ago</div>
-        <div class="icons">
-            <div class="icon_box">
-                <i class="fa fa-thumbs-up"></i>
-                <p>1K</p>
-            </div>
-            <div class="icon_box">
-                <i class="fa fa-thumbs-down"></i>
-                <p>0</p>
-            </div>
-            <div class="icon_box">
-                <i class="fa fa-share"></i>
-                <p>Share</p>
-            </div>
-            <div class="icon_box">
-                <i class="fa fa-plus"></i>
-                <p>Save</p>
-            </div>
-            <div class="icon_box">
-                <i class="fa fa-flag"></i>
-                <p>Report</p>
-            </div>
-        </div>
-        <div class="avatar_container">
-            <div class="introduce">
-                <img src="./imgs/증명사진 정장.jpg" alt="avatar_photo" class="photo">
-                <div class="text">
-                    <h3>이진영</h3>
-                    <p>1M subscribers</p>
-                </div>
-            </div>
-            <p class="subscribe">SUBSCRIBE</p>
-        </div>
-        <div class="up-next"></div>
+    </section>
+    <div class="InfoAndUpNext">
+        <section class="info">
+            <div class="content">
 
+                <div class="TitleAndMoreBtn">
+                    <p class="title clamp">Clone Coding: HTML, CSS, Javascript 를 이용하여
+                        유튜브 모바일 웹사이트 (Youtube Mobile Weqsite) 만들기
+                    </p>
+                    <button class="moreBtn"><i class="fa fa-caret-down"></i></button>
+                </div>
+                <div class="ViwesAndTag">
+                    <p class="views">조회수 1000회 &middot; 최초공개: 2022.05.30</p>
+                    <ul class="tag">
+                        <li>#클론코딩</li>
+                        <li>#코딩 공부</li>
+                        <li>#프론트엔드</li>
+                    </ul>
+                </div>
+
+            </div>
+                <ul class="icons">
+                    <li class="icon_box">
+                        <button><i class="active fa fa-thumbs-up"></i></button>
+                        <p>1.5천</p>
+                    </li>
+                    <li class="icon_box">
+                        <button><i class="fa fa-thumbs-down"></i></button>
+                        <p>0</p>
+                    </li>
+                    <li class="icon_box">
+                        <button><i class="fa fa-share"></i></button>
+                        <p>Share</p>
+                    </li>
+                    <li class="icon_box">
+                        <button><i class="fa fa-plus"></i></button>
+                        <p>Save</p>
+                    </li>
+                    <li class="icon_box">
+                        <button><i class="fa fa-flag"></i></button>
+                        <p>Report</p>
+                    </li>
+                </ul>
+                <div class="avatar_container">
+                    <div class="avatar">
+                        <img src="./imgs/증명사진 정장.jpg" alt="avatar_photo" class="photo">
+                        <div class="text">
+                            <h3>이진영</h3>
+                            <p>구독자 150만명</p>
+                        </div>
+                    </div>
+                    <button class="subscribe">구독</button>
+                </div>
+        </section>
+        <section class="comment_container">
+            <div class="comment">
+                <p>댓글 100</p>
+                <button class="moreBtn"><i class="fa fa-caret-down"></i></button>
+            </div>
+            <div class="comment_add">
+                <img src="./imgs/증명사진 정장.jpg" alt="">
+            <input type="text" placeholder="댓글 추가...">
+        </div>
+        </section>
+        <section class="upnext">
+            <span class="title">Up next</span>
+            <ul class="items">
+                <li class="item">
+                    <div class="thumbnail"><img src="./imgs/dog1.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">강아지</span>
+                        <span class="name">이진영</span>
+                        <span class="views">82K views</span>
+                    </div>
+                    <button class="moreBtn">
+                        <i class="fa fa-ellipsis-v"></i>
+                    </button>
+                </li>
+                <li class="item">
+                    <div class="thumbnail"><img src="./imgs/dog2.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">강아지</span>
+                        <span class="name">이진영</span>
+                        <span class="views">82K views</span>
+                    </div>
+                    <button class="moreBtn">
+                        <i class="fa fa-ellipsis-v"></i>
+                    </button>
+                </li>
+                <li class="item">
+                    <div class="thumbnail"><img src="./imgs/dog3.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">강아지</span>
+                        <span class="name">이진영</span>
+                        <span class="views">82K views</span>
+                    </div>
+                    <button class="moreBtn">
+                        <i class="fa fa-ellipsis-v"></i>
+                    </button>
+                </li>
+            </ul>
+        </section>
     </div>
-    
     <script src="main.js"></script>
 </body>
 </html>
