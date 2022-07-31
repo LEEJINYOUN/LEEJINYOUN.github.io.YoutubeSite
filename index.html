@@ -1,153 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/e3d83117d8.js" crossorigin="anonymous"></script>
-        <title>유튜브 사이트</title>
-    </head>
-    <body>
-        <header class="navbar">
-            <div class="navbar_logo">
-                <i class="fa fa-youtube-play"></i>
-                <span>Youtube</span>
-            </div>
-            <div class="navbar_more">
-                <i class="fa fa-search"></i>
-                <i class="fa fa-ellipsis-v"></i>
-            </div>
-        </header>
-        <section class="screen">
-            <video src="./videofile/Puppy.mp4" class="videoplayer" controls="controls"></video>
-        </section>
-        <div class="InfoAndUpNext">
-            <section class="info">
-                <div class="contents">
-                    <ul class="tag">
-                        <li>#클론코딩</li>
-                        <li>#코딩 공부</li>
-                        <li>#프론트엔드</li>
-                    </ul>
-                    <div class="TitleAndMoreBtn">
-                        <p class="title clamp">Clone Coding: HTML, CSS, Javascript 를 이용하여 유튜브 모바일 웹사이트
-                            (Youtube Mobile Weqsite) 만들기
-                        </p>
-                        <button class="moreBtn">
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                    </div>
-                    <div class="view">
-                        <p>조회수 1000회 &middot; 최초공개: 2022.05.30</p>
-                    </div>
-                </div>
-                <ul class="icons">
-                    <li class="icon_container">
-                        <button>
-                            <i class="active fa fa-thumbs-up"></i>
-                        </button>
-                        <p>1.5천</p>
-                    </li>
-                    <li class="icon_container">
-                        <button>
-                            <i class="fa fa-thumbs-down"></i>
-                        </button>
-                        <p>0</p>
-                    </li>
-                    <li class="icon_container">
-                        <button>
-                            <i class="fa fa-share"></i>
-                        </button>
-                        <p>공유</p>
-                    </li>
-                    <li class="icon_container">
-                        <button>
-                            <i class="fa fa-plus"></i>
-                        </button>
-                        <p>저장</p>
-                    </li>
-                    <li class="icon_container">
-                        <button>
-                            <i class="fa fa-flag"></i>
-                        </button>
-                        <p>신고</p>
-                    </li>
-                </ul>
-                <div class="avatar_container">
-                    <div class="avatar">
-                        <img src="./imgs/증명사진 정장.jpg" alt="avatar_photo" class="photo">
-                        <div class="text">
-                            <span class="name">이진영</span>
-                            <span class="subscriber">구독자 150만명</span>
-                        </div>
-                    </div>
-                    <button class="subscribe">구독</button>
-                </div>
-                <div class="comment_container">
-                    <div class="comment">
-                        <span>댓글 100</span>
-                        <button class="moreBtn">
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                    </div>
-                    <div class="comment_add">
-                        <img src="./imgs/증명사진 정장.jpg" alt="">
-                        <input type="text" placeholder="댓글 추가...">
-                    </div>
-                </div>
-            </section>
-            <section class="upnext">
-                <span class="title">다음 동영상</span>
-                <ul class="items">
-                    <li class="item">
-                        <div class="thumbnail"><img src="./imgs/골든리트리버.jpg" alt=""></div>
-                        <div class="small_avatar_container">
-                            <div class="small_avatar">
-                                <img src="./imgs/증명사진 정장.jpg" alt="avatar_photo" class="photo">
-                                <div class="small_text">
-                                    <span class="small_title">어린 골든리트리버</span>
-                                    <span class="small_views">이진영 &middot; 조회수 9만회 1개월 전</span>
-                                </div>
-                            </div>
-                            <button class="small_moreBtn">
-                                <i class="fa fa-ellipsis-v"></i>
-                            </button>
-                        </div>
-                    </li>
-                    <li class="item">
-                        <div class="thumbnail"><img src="./imgs/사모예드.jpg" alt=""></div>
-                        <div class="small_avatar_container">
-                            <div class="small_avatar">
-                                <img src="./imgs/증명사진 정장.jpg" alt="avatar_photo" class="photo">
-                                <div class="small_text">
-                                    <span class="small_title">털복숭이 사모예드</span>
-                                    <span class="small_views">이진영 &middot; 조회수 8.5만회 1개월 전</span>
-                                </div>
-                            </div>
-                            <button class="small_moreBtn">
-                                <i class="fa fa-ellipsis-v"></i>
-                            </button>
-                        </div>
-                    </li>
-                    <li class="item">
-                        <div class="thumbnail"><img src="./imgs/비글.jpg" alt=""></div>
-                        <div class="small_avatar_container">
-                            <div class="small_avatar">
-                                <img src="./imgs/증명사진 정장.jpg" alt="avatar_photo" class="photo">
-                                <div class="small_text">
-                                    <span class="small_title">자고있는 비글</span>
-                                    <span class="small_views">이진영 &middot; 조회수 8.2만회 1개월 전</span>
-                                </div>
-                            </div>
-                            <button class="small_moreBtn">
-                                <i class="fa fa-ellipsis-v"></i>
-                            </button>
-                        </div>
-                    </li>
-                </ul>
-            </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/e3d83117d8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>유튜브 사이트</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="navbar_logo">
+        <i class="fa fa-youtube-play"></i>
+        <span>Youtube</span>
+      </div>
+      <div class="navbar_more">
+        <i class="fa fa-search"></i>
+        <i class="fa fa-ellipsis-v"></i>
+      </div>
+    </header>
+    <section class="screen">
+      <video
+        src="./videofile/Puppy.mp4"
+        class="videoplayer"
+        controls="controls"
+      ></video>
+    </section>
+    <div class="InfoAndUpNext">
+      <section class="info">
+        <div class="contents">
+          <ul class="tag">
+            <li>#클론코딩</li>
+            <li>#코딩 공부</li>
+            <li>#프론트엔드</li>
+          </ul>
+          <div class="TitleAndMoreBtn">
+            <p class="title clamp">
+              Clone Coding: HTML, CSS, Javascript 를 이용하여 유튜브 모바일
+              웹사이트 (Youtube Mobile Weqsite) 만들기
+            </p>
+            <button class="moreBtn">
+              <i class="fa fa-caret-down"></i>
+            </button>
+          </div>
+          <div class="view">
+            <p>조회수 1000회 &middot; 최초공개: 2022.05.30</p>
+          </div>
         </div>
-        <script src="main.js"></script>
-    </body>
+        <ul class="icons">
+          <li class="icon_container">
+            <button>
+              <i class="active fa fa-thumbs-up"></i>
+            </button>
+            <p>1.5천</p>
+          </li>
+          <li class="icon_container">
+            <button>
+              <i class="fa fa-thumbs-down"></i>
+            </button>
+            <p>0</p>
+          </li>
+          <li class="icon_container">
+            <button>
+              <i class="fa fa-share"></i>
+            </button>
+            <p>공유</p>
+          </li>
+          <li class="icon_container">
+            <button>
+              <i class="fa fa-plus"></i>
+            </button>
+            <p>저장</p>
+          </li>
+          <li class="icon_container">
+            <button>
+              <i class="fa fa-flag"></i>
+            </button>
+            <p>신고</p>
+          </li>
+        </ul>
+        <div class="avatar_container">
+          <div class="avatar">
+            <img
+              src="./imgs/증명사진 정장.jpg"
+              alt="avatar_photo"
+              class="photo"
+            />
+            <div class="text">
+              <span class="name">이진영</span>
+              <span class="subscriber">구독자 150만명</span>
+            </div>
+          </div>
+          <span class="subscribe">구독</span>
+        </div>
+        <div class="comment_container">
+          <div class="comment">
+            <span>댓글 100</span>
+            <button class="moreBtn">
+              <i class="fa fa-caret-down"></i>
+            </button>
+          </div>
+          <div class="comment_add">
+            <img src="./imgs/증명사진 정장.jpg" alt="" />
+            <input type="text" placeholder="댓글 추가..." />
+          </div>
+        </div>
+      </section>
+      <section class="upnext">
+        <span class="title">다음 동영상</span>
+        <ul class="items">
+          <li class="item">
+            <div class="thumbnail">
+              <img src="./imgs/골든리트리버.jpg" alt="" />
+            </div>
+            <div class="small_avatar_container">
+              <div class="small_avatar">
+                <img
+                  src="./imgs/증명사진 정장.jpg"
+                  alt="avatar_photo"
+                  class="photo"
+                />
+                <div class="small_text">
+                  <span class="small_title">어린 골든리트리버</span>
+                  <span class="small_views"
+                    >이진영 &middot; 조회수 9만회 1개월 전</span
+                  >
+                </div>
+              </div>
+              <button class="small_moreBtn">
+                <i class="fa fa-ellipsis-v"></i>
+              </button>
+            </div>
+          </li>
+          <li class="item">
+            <div class="thumbnail">
+              <img src="./imgs/사모예드.jpg" alt="" />
+            </div>
+            <div class="small_avatar_container">
+              <div class="small_avatar">
+                <img
+                  src="./imgs/증명사진 정장.jpg"
+                  alt="avatar_photo"
+                  class="photo"
+                />
+                <div class="small_text">
+                  <span class="small_title">털복숭이 사모예드</span>
+                  <span class="small_views"
+                    >이진영 &middot; 조회수 8.5만회 1개월 전</span
+                  >
+                </div>
+              </div>
+              <button class="small_moreBtn">
+                <i class="fa fa-ellipsis-v"></i>
+              </button>
+            </div>
+          </li>
+          <li class="item">
+            <div class="thumbnail"><img src="./imgs/비글.jpg" alt="" /></div>
+            <div class="small_avatar_container">
+              <div class="small_avatar">
+                <img
+                  src="./imgs/증명사진 정장.jpg"
+                  alt="avatar_photo"
+                  class="photo"
+                />
+                <div class="small_text">
+                  <span class="small_title">자고있는 비글</span>
+                  <span class="small_views"
+                    >이진영 &middot; 조회수 8.2만회 1개월 전</span
+                  >
+                </div>
+              </div>
+              <button class="small_moreBtn">
+                <i class="fa fa-ellipsis-v"></i>
+              </button>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <script src="main.js"></script>
+  </body>
 </html>
