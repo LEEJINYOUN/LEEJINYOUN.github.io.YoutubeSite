@@ -1,2 +1,7 @@
-# YoutubeSite
-YoutubeSite
+# 유튜브
+
+1. 자바스크립트를 배우면서 제작한 페이지입니다.
+2. HTML, CSS, JAVASCRIPT 를 사용하였습니다.
+3. 창 크기에 따른 반응형 웹사이트
+
+![캡처](/imgs/유튜브_readme.gif)
