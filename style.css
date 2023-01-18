@@ -41,21 +41,21 @@ button:focus {
   color: var(--white-color);
 }
 
-.navbar_logo {
+.navbarLogo {
   font-size: var(--font-large);
 }
 
-.navbar_logo > i {
+.navbarLogo > i {
   color: var(--red-color);
 }
 
-.navbar_more > i + i {
+.navbarMore > i + i {
   margin-left: var(--padding);
 }
-.navbar_more > i {
+.navbarMore > i {
   cursor: pointer;
 }
-.navbar_more > i:hover {
+.navbarMore > i:hover {
   color: red;
 }
 
@@ -66,7 +66,7 @@ button:focus {
   background-color: var(--black-color);
 }
 
-.videoplayer {
+.videoPlayer {
   width: 100%;
   height: 100%;
   max-width: 1000px;
@@ -112,7 +112,7 @@ button:focus {
   transform: rotate(180deg);
 }
 
-.viwe {
+.view {
   display: flex;
   flex-direction: row;
 }
@@ -128,7 +128,7 @@ button:focus {
   margin: var(--padding) 0;
 }
 
-.icon_container > button {
+.iconContainer > button {
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -136,19 +136,19 @@ button:focus {
   color: var(--grey-dark-color);
 }
 
-.icon_container > button > i {
+.iconContainer > button > i {
   margin: 0 auto calc(val(--padding) / 2);
   font-size: 16px;
 }
 
-.icon_container > button > i.active {
+.iconContainer > button > i.active {
   color: var(--blue-color);
 }
-.icon_container > button + p {
+.iconContainer > button + p {
   margin-top: 5px;
 }
 
-.avatar_container {
+.avatarContainer {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid var(--grey-light-color);
@@ -196,7 +196,7 @@ button:focus {
   cursor: pointer;
 }
 
-.comment_container {
+.commentContainer {
   border-bottom: 1px solid var(--grey-light-color);
   padding: var(--padding) 0;
 }
@@ -208,16 +208,16 @@ button:focus {
 .comment > span {
   padding-bottom: 10px;
 }
-.comment_add {
+.commentAdd {
   display: flex;
   align-items: center;
 }
-.comment_add > img {
+.commentAdd > img {
   width: calc(var(--avatar-size) - 5px);
   height: calc(var(--avatar-size) - 5px);
   border-radius: 50%;
 }
-.comment_add > input {
+.commentAdd > input {
   width: 90%;
   height: 25px;
   margin-left: 10px;
@@ -227,11 +227,11 @@ button:focus {
   border-radius: 3px;
 }
 
-.upnext {
+.upNext {
   padding: 0 var(--padding);
 }
 
-.upnext > .title {
+.upNext > .title {
   font-size: var(--font-medium);
   color: var(--grey-dark-color);
   margin-bottom: calc(val(--padding) / 2);
@@ -251,43 +251,43 @@ button:focus {
   width: 100%;
 }
 
-.small_avatar_container {
+.smallAvatarContainer {
   display: flex;
   justify-content: space-between;
   padding: 10px 0;
 }
 
-.small_avatar {
+.smallAvatar {
   display: flex;
   align-items: center;
 }
 
-.small_avatar > img {
+.smallAvatar > img {
   width: var(--avatar-size);
   height: var(--avatar-size);
   border-radius: 50%;
 }
 
-.small_text {
+.smallText {
   display: flex;
   flex-direction: column;
   margin-left: 5px;
 }
 
-.small_text > .small_title {
+.smallText > .smallTitle {
   font-size: var(--font-medium);
 }
 
-.small_text > .small_views {
+.smallText > .smallViews {
   font-size: var(--font-small);
   color: var(--grey-dark-color);
 }
 
-.small_text > .small_title + .small_views {
+.smallText > .smallTitle + .smallViews {
   margin-top: 5px;
 }
 
-.small__moreBtn {
+.smallMoreBtn {
   text-transform: uppercase;
   color: var(--red-color);
   font-size: var(--font-medium);
@@ -316,7 +316,7 @@ button:focus {
     border-radius: 5px;
   }
 
-  .comment_add > input {
+  .commentAdd > input {
     margin-left: 10px;
     padding-left: 10px;
     background-color: var(--white-color);
@@ -338,28 +338,28 @@ button:focus {
     width: 100%;
   }
 
-  .small_avatar_container {
+  .smallAvatarContainer {
     display: flex;
     flex-direction: row;
     flex: 1 1 60%;
   }
-  .small_avatar > img {
+  .smallAvatar > img {
     display: none;
   }
 
-  .small_title {
+  .smallTitle {
     font-size: var(--font-small);
   }
-  .small_views {
+  .smallViews {
     font-size: var(--font-micro);
     color: var(--grey-dark-color);
   }
 
-  .small_moreBtn {
+  .smallMoreBtn {
     flex: 1 1 5%;
     display: none;
   }
-  .items > .item:hover .small_moreBtn {
+  .items > .item:hover .smallMoreBtn {
     display: block;
   }
 }
@@ -368,7 +368,7 @@ button:focus {
   .info {
     width: 70%;
   }
-  .upnext {
+  .upNext {
     width: 30%;
   }
 
